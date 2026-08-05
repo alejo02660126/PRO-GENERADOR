@@ -1487,8 +1487,8 @@ function showSummaryAndFinish() {
   const username = document.getElementById('userInput').value || 'Invitado';
   userEl.textContent = username;
 
-  // Días de espera aleatorios
-  const dayOptions = ['4-6', '5-8', '7-9', '6-8', '8-10'];
+  // Horas de espera aleatorios
+  const dayOptions = ['36-72', '42-78', '36-70', '45-67', '40-79'];
   const randomDays = dayOptions[Math.floor(Math.random() * dayOptions.length)];
   document.getElementById('waitDays').textContent = randomDays + ' DÍAS';
 
